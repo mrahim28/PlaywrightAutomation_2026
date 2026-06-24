@@ -27,6 +27,8 @@ test('Bing Searches with multiple keywords', async ({ page }) => {
     console.log(results)
     let arrayReslts = results?.split(' ')
     console.log("Search number for " + sports[i] + " is : " + arrayReslts?.[1])
+
+    //for testing new commit
   }
 
    
