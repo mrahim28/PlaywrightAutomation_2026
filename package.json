@@ -8,7 +8,8 @@
   "uspsMouseHoverTest": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --headed --workers=1 --project=chrome --reporter=html",
   "uspsMouseHoverTestHeadless": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --workers=1 --project=chrome --reporter=html",
   "bingLoop": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-  "parallelTest": "npx playwright test src/test/Day2_062226/.* --workers=2 --project=chrome --headed --reporter=html"
+  "parallelTest": "npx playwright test src/test/Day2_062226/.* --workers=2 --project=chrome --headed --reporter=html",
+  "massMutualTest": "npx playwright test src/test/Day2_062226/T3_MassMutual.spec.ts --workers=1 --project=chrome --reporter=html"
   },
   "keywords": [],
   "author": "",
